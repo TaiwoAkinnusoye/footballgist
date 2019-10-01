@@ -1,0 +1,1 @@
+export const api = 'http://api.football-data.org/v2/competitions';
