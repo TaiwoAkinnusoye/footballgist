@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { StandingsComponent } from '../standings/standings.component';
+import { StandingsComponent } from './standings/standings.component';
 
 
 
