@@ -1,0 +1,22 @@
+.Nav {
+    background: lightblue;
+    height: 40px;
+}
+
+.goTo:hover {
+    text-decoration: underline;
+    -webkit-text-decoration-color: red;
+    text-decoration-color: red;
+    -webkit-text-decoration-style: wavy;
+    text-decoration-style: wavy;
+}
+
+.goTo {
+    cursor: pointer;    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.goTo a {
+    padding: 10px 0;
+}

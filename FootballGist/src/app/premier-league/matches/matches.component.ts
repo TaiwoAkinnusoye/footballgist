@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {api} from '../../../config';
 import { PremierLeagueDataService } from '../premier-league-data.service';
 
 @Component({
@@ -7,7 +6,7 @@ import { PremierLeagueDataService } from '../premier-league-data.service';
   templateUrl: './matches.component.html',
   styleUrls: ['./matches.component.css']
 })
-export class MatchesComponent implements OnInit {
+export class EplMatchesComponent implements OnInit {
 
   constructor(private EPLData: PremierLeagueDataService) { }
   public dataSource;

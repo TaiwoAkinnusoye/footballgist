@@ -1,0 +1,26 @@
+<app-laliganav></app-laliganav>
+
+<div class="matches">
+    
+
+        <div  *ngFor="let data of dataSource">
+                <p class="matchDay">
+                        Matchday {{data.matchday}} of 38
+                    </p>
+            <div class="matches-grid">
+                <div>
+                <div class="home-team">
+                    <span class="home-team-name">Home: {{data.homeTeam.name}} </span> <span class="scores home-team">scores: {{data.score.fullTime.homeTeam}}</span>
+                </div>
+    
+                <div class="away-team">
+                        <span class="away-team-name">Away: {{data.awayTeam.name}} </span> <span class="scores away-team">scores: {{data.score.fullTime.awayTeam}}</span>
+                </div>
+                </div>
+                <div class="match-time">
+                        <p>Match Time: {{data.utcDate | date:"full" }} </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>

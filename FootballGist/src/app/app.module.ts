@@ -8,7 +8,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PremierLeagueModule } from './premier-league/premier-league.module';
 import { HomeComponent } from './home/home.component';
-import { NavComponent } from './nav/nav.component';
+import { NavComponent } from './app-nav/nav.component';
+import { LaligaModule } from './laliga/laliga.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { NavComponent } from './nav/nav.component';
     AppRoutingModule,
     PremierLeagueModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
+    LaligaModule
   ],
   providers: [],
   bootstrap: [AppComponent]

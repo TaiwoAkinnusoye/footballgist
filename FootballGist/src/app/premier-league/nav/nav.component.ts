@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-nav',
+  selector: 'epl-nav',
   templateUrl: './nav.component.html',
   styleUrls: ['./nav.component.css']
 })
