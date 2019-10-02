@@ -1,0 +1,22 @@
+.footballgistnav {
+    background: lightskyblue;
+}
+
+.footballgistlogo {
+    /* transform: skew(-20deg); */
+    height: 40px;
+    margin: 10px 0 10px 40px;
+    background: transparent;
+    border: none;
+}
+
+.footballgistlogo a {
+    text-decoration: underline;
+    -webkit-text-decoration-color: red;
+    text-decoration-color: red;
+    -webkit-text-decoration-style: wavy;
+    text-decoration-style: wavy;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+}

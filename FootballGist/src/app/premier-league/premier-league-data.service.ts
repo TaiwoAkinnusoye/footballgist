@@ -17,4 +17,8 @@ export class PremierLeagueDataService {
 getStandings(): Observable<any> {
   return this.http.get(`${api}/PL/standings`, this.httpOptions);
 }
+
+getMatches(): Observable<any> {
+  return this.http.get(`${api}/PL/matches`, this.httpOptions);
+}
 }
