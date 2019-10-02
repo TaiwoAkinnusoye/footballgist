@@ -1,0 +1,19 @@
+.matchDay {
+    margin: 0;
+    background: lightgray;
+    padding: 10px;
+}
+
+.matches-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.grid {
+    border: 1px solid lightblue;
+    padding: 10px 0 0 10px;
+}
+
+.home-team, .away-team {
+    margin-bottom: 20px;
+}

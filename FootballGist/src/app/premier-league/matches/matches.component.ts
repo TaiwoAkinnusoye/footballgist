@@ -10,12 +10,11 @@ import { PremierLeagueDataService } from '../premier-league-data.service';
 export class MatchesComponent implements OnInit {
 
   constructor(private EPLData: PremierLeagueDataService) { }
-  public data;
-  public displayedColumns: string[] = ['Position', 'Team', 'MP', 'W', 'D', 'L', 'GF', 'GA', 'GD', 'PTS' ];
+  public dataSource;
+  // public displayedColumns: string[] = [];
   ngOnInit() {
     this.EPLData.getMatches().subscribe(data => {
-      this.data = data;
-      console.log('data', data.matches[0]);
+      return this.dataSource = data.matches;
     });
   }
 }
