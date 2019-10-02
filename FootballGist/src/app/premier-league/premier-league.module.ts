@@ -6,11 +6,12 @@ import { MatTableModule } from '@angular/material/table';
 
 
 import { MatchesComponent } from './matches/matches.component';
+import { NavComponent } from './nav/nav.component';
 
 
 
 @NgModule({
-  declarations: [StandingsComponent, MatchesComponent],
+  declarations: [StandingsComponent, MatchesComponent, NavComponent],
   imports: [
     CommonModule,
     MatTableModule
