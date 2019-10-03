@@ -20,3 +20,4 @@ None
 
 # Cool Functionalities
 Implementing route transition animations
+Implementing route resolvers
